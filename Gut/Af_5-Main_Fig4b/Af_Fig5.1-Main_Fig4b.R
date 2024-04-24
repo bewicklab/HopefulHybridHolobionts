@@ -241,7 +241,7 @@ triangle_unifrac_all_20_null10<-TriangleHnull(Z_physeq,species_no,50,12,dimensio
 triangle_unifrac_all_20_null6<-TriangleHnull(Z_physeq,species_no,50,12,dimensions=20,seed=2,null_model=6,dist='unifrac',ordination='PCoA')
 triangle_unifrac_all_20_null7<-TriangleHnull(Z_physeq,species_no,50,12,dimensions=20,seed=2,null_model=7,dist='unifrac',ordination='PCoA')
 
-# Fig. 5.1i
+# Fig. 5.1i & Main Fig. 4b
 TriangleHplot(triangle_unifrac_all_20,col='purple')
 TriangleHplot(triangle_unifrac_all_20_SNW,col='lightslateblue',addplot=TRUE)
 TriangleHplot(triangle_unifrac_all_20_SBluG,col='magenta',addplot=TRUE)
